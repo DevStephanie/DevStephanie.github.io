@@ -1,5 +1,7 @@
 img {
     border-radius: 8px;
+    width: 200px;
+    height: 200px;
   }
 
 .card-group{ 
@@ -20,5 +22,14 @@ img {
     rgdba(0, 0, 0, 0.5);
     border-radius: 8px;
     transition: transform 250ms;
-    
+}
+.card:not(:first-child){ 
+    margin-left: -130px;
+}
+.card:hover{ 
+    transform: translate(-8px, -16px)
+    rotate(3deg);
+}
+.card:hover ~ .card{ 
+    transform: translate(130px);
 }
