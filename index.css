@@ -29,7 +29,7 @@ img{
 /* header */
 header{
     min-height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(images/banner-bg.jpg) center/cover no-repeat fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(images/purplemoon.jpeg) center/cover no-repeat fixed;
     display: flex;
     flex-direction: column;
     justify-content: stretch;
@@ -98,6 +98,10 @@ header{
     display: flex;
     justify-content: space-between;
 }
+.body {
+    background-image: url('images/purplemoon.jpeg');
+    background-attachment: fixed;
+   }   
 .search-input{
     font-family: var(--Roboto);
     font-size: 1.1rem;
